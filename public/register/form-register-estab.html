@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Registration Form</title>
+
+	<link rel="stylesheet" href="../stylesheets/demo.css">
+	<link rel="stylesheet" href="stylesheets/form-register-estab.css">
+
+</head>
+
+    <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../register/form-login.html">Logar</a></li>
+        <li><a href="../register/form-register.html">Criar conta</a></li>
+        <li><a href="../register/form-register-estab.html" class="active">Registrar Estabelecimento</a></li>
+        <li><a href="../register/form-conf-mesas.html">Configuração Mesas</a></li>
+        <li><a href="../register/form-conf-pagamentos.html">Configuração Pagamentos</a></li>
+        <li><a href="../register/info-resumidas.html">Info Resumidas</a></li>
+    </ul>
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-register.css -->
+
+        <form class="form-register" method="post" action="#">
+
+            <div class="form-register-with-email">
+
+                <div class="form-white-background">
+
+                    <div class="form-title-row">
+                        <h1>Registrar Estabelecimento</h1>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Nome de Estabelecimento</span>
+                            <input type="text" name="estab_name">
+                        </label>
+                    </div>
+					
+                    <div class="form-row">
+                        <label>
+                            <span>Rua</span>
+                            <input type="text" name="street">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Número</span>
+                            <input type="number" name="num">
+                        </label>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>
+                            <span>Bairro</span>
+                            <input type="text" name="neighborhood">
+                        </label>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>
+                            <span>Cidade</span>
+                            <input type="text" name="city">
+                        </label>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>
+                            <span>Estado</span>
+                            <input type="text" name="state">
+                        </label>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>
+                            <span>País</span>
+                            <input type="text" name="country">
+                        </label>
+                    </div>
+
+                    
+                    <div class="form-row">
+                        <button type="submit"><a href="../register/form-conf-mesas.html"></a>Continuar</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

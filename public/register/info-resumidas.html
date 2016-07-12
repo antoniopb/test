@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Basic Form</title>
+
+<link rel="stylesheet" href="../stylesheets/demo.css">
+<link rel="stylesheet" href="../stylesheets/form-basic.css">
+
+</head>
+
+<ul>
+	<li><a href="../index.html">Início</a></li>
+	<li><a href="../register/form-login.html">Logar</a></li>
+	<li><a href="../register/form-register.html">Criar conta</a></li>
+	<li><a href="../register/form-register-estab.html">Registrar
+			Estabelecimento</a></li>
+	<li><a href="../register/form-conf-mesas.html">Configuração
+			Mesas</a></li>
+	<li><a href="../register/form-conf-pagamentos.html">Configuração
+			Pagamentos</a></li>
+	<li><a href="../register/info-resumidas.html" class="active">Info Resumidas</a></li>
+</ul>
+
+
+<div class="main-content">
+
+	<!-- You only need this form and the form-basic.css -->
+
+	<form class="form-basic" method="post" action="#">
+
+		<div class="form-title-row">
+			<h1>Minhas Informações</h1>
+		</div>
+
+		<div class="form-row">
+			<label><span>Nome</span></label> <label>João Firmino</label>
+		</div>
+
+		<div class="form-row">
+			<label><span>Email</span></label> <label>jfirmino@comabem.com.br</label>
+		</div>
+
+		<div class="form-title-row">
+			<h1>Estabelecimento</h1>
+		</div>
+
+		<div class="form-row">
+			<label><span>Nome</span></label> <label>Restaurante Coma Bem</label>
+		</div>
+
+		<div class="form-row">
+			<label><span>Rua</span></label> <label>Rua das Acácias</label>
+		</div>
+
+		<div class="form-row">
+			<label><span>Número</span></label> <label>25345</label>
+		</div>
+
+		<div class="form-row">
+			<label><span>Bairro</span></label> <label>Leblon</label>
+		</div>
+
+		<div class="form-row">
+			<label><span>Cidade</span></label> <label>Rio de Janeiro</label>
+		</div>
+
+		<div class="form-row">
+			<label><span>Estado</span></label> <label>Rio de Janeiro</label>
+		</div>
+
+		<div class="form-row">
+			<label><span>País</span></label> <label>Brasil</label>
+		</div>
+		
+		<div class="form-title-row">
+			<h1>Formas de Pagamento Disponíveis</h1>
+		</div>
+		
+		<div class="form-row">
+            <label>
+                <span>Dinheiro</span>
+                <input type="checkbox" name="checkbox" checked>
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                <span>Cartão de Crédito Visa</span>
+                <input type="checkbox" name="checkbox" checked>
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                <span>Cartão de Crédito MasterCard</span>
+                <input type="checkbox" name="checkbox" checked>
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                <span>Cartão de Crédito HyperCard</span>
+                <input type="checkbox" name="checkbox" checked>
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                <span>Cartão de Crédito Elo</span>
+                <input type="checkbox" name="checkbox">
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                <span>Cheque</span>
+                <input type="checkbox" name="checkbox">
+            </label>
+        </div>
+        <div class="form-row">
+            <label>
+                <span>PayPal</span>
+                <input type="checkbox" name="checkbox" checked>
+            </label>
+        </div>
+		
+		<div class="form-title-row">
+			<h1>Configuração de Mesas</h1>
+		</div>
+
+		<table style="width: 100%">
+			<tr>
+				<th>Mesa</th>
+				<th>Número de Cadeiras</th>
+			</tr>
+			<tr>
+				<td>01</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>02</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>03</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>04</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>05</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>06</td>
+				<td>10</td>
+			</tr>
+		</table>
+
+		<div class="form-row">
+			<button type="submit">Finalizar Registro e Gerar QRCodes</button>
+		</div>
+
+	</form>
+
+</div>
+
+</body>
+
+</html>

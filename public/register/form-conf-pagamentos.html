@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Configuração de cadeiras</title>
+
+	<link rel="stylesheet" href="../stylesheets/demo.css">
+	<link rel="stylesheet" href="../stylesheets/form-basic.css">
+
+</head>
+
+    <ul>
+     	<li><a href="../index.html">Início</a></li>
+        <li><a href="../register/form-login.html">Logar</a></li>
+        <li><a href="../register/form-register.html">Criar conta</a></li>
+        <li><a href="../register/form-register-estab.html">Registrar Estabelecimento</a></li>
+        <li><a href="../register/form-conf-mesas.html">Configuração Mesas</a></li>
+        <li><a href="../register/form-conf-pagamentos.html" class="active">Configuração Pagamentos</a></li>
+        <li><a href="../register/info-resumidas.html">Info Resumidas</a></li>
+    </ul>
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+
+        <form class="form-basic" method="post" action="#">
+
+            <div class="form-title-row">
+                <h1>Configuração de Formas de Pagamento</h1>
+            </div>
+		
+            <div class="form-row">
+                <label><span>Formas de Pagamento Disponíveis no Estabelecimento</span></label>
+                <div class="form-radio-buttons">
+					<div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>Dinheiro</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>Cartão de Crédito - Visa</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>Cartão de Crédito - MasterCard</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>Cartão de Crédito - HyperCard</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>Cartão de Crédito - Elo</span>
+                        </label>
+                    </div>
+					<div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>PayPal</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>Cheque</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="radio">
+                            <span>Outra opção</span>
+                        </label>
+                    </div>
+                </div>
+       
+                <div class="form-row">
+	                <label>
+	                    <span>Comentários</span>
+	                    <textarea name="textarea"></textarea>
+	                </label>
+            	</div>
+            </div>
+
+            <div class="form-row">
+                <button type="submit">Continuar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
